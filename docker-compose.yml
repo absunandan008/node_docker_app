@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    web:
+      build: .
+      image: abhidevdocker/node-web-app
+      ports:
+        - "3001:3001/tcp"
