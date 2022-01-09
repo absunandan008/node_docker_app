@@ -1,5 +1,6 @@
 ## The node.js example app
-This app runs on port 3001 and just displays 'Hello World ||| Hostname : <actual host name of machine where the app is running>'
+This app runs on port 3001 and just displays 'Hello World ||| Hostname : Displays_Host_Name'
+
 This is a docker supported up. You will need docker running on your machine.
 
 ## Requirements
