@@ -1,7 +1,8 @@
-## The node.js example app
+## The node.js example app with smaller docker footprint
+
 This app runs on port 3001 and just displays 'Hello World ||| Hostname : Displays_Host_Name'
 
-This is a docker supported up. You will need docker running on your machine.
+You can run this app with docker as well and docker compose and docker file is present.
 
 ## Requirements
 * Node 16 
@@ -41,7 +42,7 @@ cd node_docker_app
 ```
 ```bash
 docker-compose build
-docker compose up
+docker-compose up
 ```
 Open [http://localhost:3001](http://localhost:3001)
 ## Output: 
