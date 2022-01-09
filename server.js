@@ -10,5 +10,5 @@ app.get('/network', (req, res) => res.send(os.networkInterfaces()))
 app.get('/hostname', (req, res) => res.send(os.hostname()))
 //Listen
 app.listen(3001, () => {
-	  console.log(`Example app listening on port 3001!, use / for hello, /network for ip info, /hostname for actual hostname`)
+	  console.log(`Example app listening on port 3001!, use localhost:3001/ for Hello World, /network for ip info, /hostname for actual hostname`)
 })
