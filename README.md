@@ -3,7 +3,7 @@ This app runs on port 3001 and just displays 'Hello World ||| Hostname : <actual
 This is a docker supported up. You will need docker running on your machine.
 
 ## Requirements
-* Node 8 
+* Node 16 
 * Git
 * Docker
 
